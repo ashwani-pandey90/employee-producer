@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cXML payloadID="1589266423.921613@invitrogen.com" timestamp="2020-05-12T02:53:43-05:00" version="'1.1.008'" xml:lang="en-US">
+   <Header>
+      <From>
+         <Credential domain="Other">
+            <Identity>B2B_siegen_US</Identity>
+         </Credential>
+      </From>
+      <To>
+         <Credential domain="Other">
+            <Identity>B2B_siegen_US</Identity>
+         </Credential>
+      </To>
+      <Sender>
+         <Credential domain="Other">
+            <Identity>B2B_siegen_US</Identity>
+            <SharedSecret>supplier2ivgn</SharedSecret>
+         </Credential>
+         <UserAgent>ACCPAC</UserAgent>
+      </Sender>
+   </Header>
+   <Request deploymentMode="test">
+      <OrderRequest>
+         <OrderRequestHeader orderDate="2008-06-30T09:15:58+09:15" orderID="AshwinTest123" orderType="regular" type="new">
+            <Total>
+               <Money currency="USD">475.19</Money>
+            </Total>
+            <ShipTo>
+               <Address addressID="277488" isoCountryCode="US">
+                  <Name xml:lang="en-US">UCLA Dentistry</Name>
+                  <PostalAddress name="">
+                     <Street>School of Dentistry</Street>
+                     <Street>Room 33-030 CHS</Street>
+                     <Street>714 Tiverton Ave</Street>
+                     <City>Los Angeles</City>
+                     <State>CA</State>
+                     <PostalCode>90024</PostalCode>
+                     <Country isoCountryCode="US">United States</Country>
+                  </PostalAddress>
+                  <Email/>
+               </Address>
+            </ShipTo>
+            <BillTo>
+               <Address addressID="277488">
+                  <Name xml:lang="en-US">UCLA - Accounts Payable</Name>
+                  <PostalAddress>
+                     <DeliverTo>ACCOUNTS PAYABLE</DeliverTo>
+                     <Street>A</Street>
+                     <Street>10920 Wilshire Blvd.,5th Floor</Street>
+                     <City>Los Angeles</City>
+                     <State>CA</State>
+                     <PostalCode>90024</PostalCode>
+                     <Country isoCountryCode="US">United States</Country>
+                  </PostalAddress>
+                  <Email/>
+                  <Phone name="work">
+                     <TelephoneNumber>
+                        <CountryCode isoCountryCode="US"/>
+                        <AreaOrCityCode>310</AreaOrCityCode>
+                        <Number>7940197</Number>
+                     </TelephoneNumber>
+                  </Phone>
+                  <Fax name="work">
+                     <TelephoneNumber>
+                        <CountryCode isoCountryCode="US"/>
+                        <AreaOrCityCode>310</AreaOrCityCode>
+                        <Number>7948513</Number>
+                     </TelephoneNumber>
+                  </Fax>
+               </Address>
+            </BillTo>
+            <Extrinsic name="orderRequesterName">IVGNB2BTester</Extrinsic>
+            <Extrinsic name="orderShipToAttention">B2BTestShipToAttn</Extrinsic>
+            <Extrinsic name="isShippingDifferent">0</Extrinsic>
+            <Extrinsic name="orderID"></Extrinsic>
+            <Extrinsic name="orderShipToAccountNumber"/>
+            <Extrinsic name="orderCostCenterID"/>
+            <Extrinsic name="orderCustomerGenLegNo">11111</Extrinsic>
+            <Extrinsic name="orderContractNumber"/>
+            <Extrinsic name="orderCustomerBlanketNumber"/>
+            <Extrinsic name="orderCustomerLabBuilding"/>
+            <Extrinsic name="orderReleaseNumber"/>
+            <Extrinsic name="orderQuoteNumber"/>
+            <Extrinsic name="orderSpecialVAT"/>
+            <Extrinsic name="orderIsSplitAccount">0</Extrinsic>
+            <Extrinsic name="orderIsAttachment">0</Extrinsic>
+         </OrderRequestHeader>
+         <ItemOut lineNumber="1" quantity="1">
+            <ItemID>
+               <SupplierPartID>NP0009</SupplierPartID>
+               <SupplierPartAuxiliaryID>[261481708_3704307035]</SupplierPartAuxiliaryID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">63.25</Money>
+               </UnitPrice>
+               <Description xml:lang="en-US">NuPAGE Sample Reducing Agent (10X)</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <Classification domain="UNSPSC">41105323</Classification>
+               <Extrinsic name="SupplyCentreShipTo"/>
+            </ItemDetail>
+         </ItemOut>
+         <ItemOut lineNumber="2" quantity="1">
+            <ItemID>
+               <SupplierPartID>NP0001</SupplierPartID>
+               <SupplierPartAuxiliaryID>[261481708_3704314204]</SupplierPartAuxiliaryID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">83.00</Money>
+               </UnitPrice>
+               <Description xml:lang="en-US">NuPAGE MOPS SDS Running Buffer (20X)</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <Classification domain="UNSPSC">41105323</Classification>
+               <Extrinsic name="SupplyCentreShipTo"/>
+            </ItemDetail>
+         </ItemOut>
+         <ItemOut lineNumber="3" quantity="1">
+            <ItemID>
+               <SupplierPartID>15140122</SupplierPartID>
+               <SupplierPartAuxiliaryID>[261481708_3704314205]</SupplierPartAuxiliaryID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">22.36</Money>
+               </UnitPrice>
+               <Description xml:lang="en-US">Penicillin-Streptomycin (10,000 U/mL)</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <Classification domain="UNSPSC">51283405</Classification>
+               <Extrinsic name="SupplyCentreShipTo"/>
+            </ItemDetail>
+         </ItemOut>
+         <ItemOut lineNumber="4" quantity="1">
+            <ItemID>
+               <SupplierPartID>4652080</SupplierPartID>
+               <SupplierPartAuxiliaryID>[261481708_3704314214]</SupplierPartAuxiliaryID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">294.00</Money>
+               </UnitPrice>
+               <Description xml:lang="en-US">Finnpipette F2 Fixed Volume Single-Channel Pipettes, 1000</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <Classification domain="UNSPSC">41121504</Classification>
+               <Extrinsic name="SupplyCentreShipTo"/>
+            </ItemDetail>
+         </ItemOut>
+         <ItemOut lineNumber="5" quantity="1">
+            <ItemID>
+               <SupplierPartID>10336022</SupplierPartID>
+               <SupplierPartAuxiliaryID>[261481708_3704314215]</SupplierPartAuxiliaryID>
+            </ItemID>
+            <ItemDetail>
+               <UnitPrice>
+                  <Money currency="USD">12.58</Money>
+               </UnitPrice>
+               <Description xml:lang="en-US">WERTYUI</Description>
+               <UnitOfMeasure>EA</UnitOfMeasure>
+               <Classification domain="UNSPSC">41106402</Classification>
+               <Extrinsic name="SupplyCentreShipTo"/>
+            </ItemDetail>
+         </ItemOut>
+         <Distribution>
+            <Accounting name="DistributionCharge">
+               <Segment description="Percentage" id="100" type="Split Percentage"/>
+               <Segment description="ID" id="11111" type="Cost Center"/>
+            </Accounting>
+            <Charge>
+               <Money currency="USD">226.59</Money>
+            </Charge>
+         </Distribution>
+      </OrderRequest>
+   </Request>
+</cXML>
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.comergent.com/webservices/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:OrderServiceRequest>
+      <web:MessageHeader>
+        <web:MessageId>1271000127478</web:MessageId>
+        <web:MessageType>OrderServiceRequest</web:MessageType>
+        <web:MessageVersion>5.1</web:MessageVersion>
+        <web:Source>
+        </web:Source>
+      </web:MessageHeader>
+      <web:RemoteUser>
+        <web:UserLogin>yakken</web:UserLogin>
+        <web:UserAuthenticator>Password1</web:UserAuthenticator>
+      </web:RemoteUser>
+      <web:Payload>
+        <web:OrderHeader>
+          <web:BillToAttention>-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</web:BillToAttention>
+          <web:ShipToAttention>-ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt</web:ShipToAttention>
+          <web:ShipOrderAddress>
+            <web:AddressNumber>68892968</web:AddressNumber>
+            <web:AddressLine1>
+            </web:AddressLine1>
+            <web:AddressLine2>
+            </web:AddressLine2>
+          </web:ShipOrderAddress>
+          <web:PaymentInfo>
+            <web:PaymentTypeString>Account</web:PaymentTypeString>
+            <web:PurchaseOrder>
+              <web:POReleaseNumber>
+              </web:POReleaseNumber>
+              <web:PONumber>1271000127478</web:PONumber>
+            </web:PurchaseOrder>
+          </web:PaymentInfo>
+          <web:NeedOrderConfirmationEmail>True</web:NeedOrderConfirmationEmail>
+          <web:NeedShipmentConfirmationEmail>True</web:NeedShipmentConfirmationEmail>
+          <web:ConfirmationEmailAddress>kyoto-pcs@wakenyaku.co.jp</web:ConfirmationEmailAddress>
+          <web:SpecialInstructions>Testing in prod</web:SpecialInstructions>
+          <web:PromoCode1>
+          </web:PromoCode1>
+          <web:PromoCode2>
+          </web:PromoCode2>
+        </web:OrderHeader>
+        <web:OrderLineList>
+          <!--1 or more repetitions:-->
+          <web:OrderLine>
+            <web:SKU>NP0001</web:SKU>
+            <web:Quantity>1</web:Quantity>
+            <web:LineSpecificId name="Assay ID"/>
+            <web:CustomerName>Test</web:CustomerName>
+            <web:PODetails>1271000127478</web:PODetails>
+            <web:Remarks>Test：17-116</web:Remarks>
+            <web:EndUserSGNRefNumber>1270101</web:EndUserSGNRefNumber>
+          </web:OrderLine>
+        </web:OrderLineList>
+      </web:Payload>
+    </web:OrderServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
