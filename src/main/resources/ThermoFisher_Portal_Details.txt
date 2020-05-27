@@ -1,0 +1,60 @@
+jira  URL
+https://jira.amer.thermo.com/secure/Dashboard.jspa
+ashwani.pandey
+
+confluence page:
+https://confluence.amer.thermo.com/display/TFCFG/Ashwiny+Pandey+-+Knowledge+Transfer
+
+stash repository URL:
+https://stash.thermofisher.com/login?next=/projects/TFBB
+ashwani.pandey
+
+Jenkins:
+https://jenkins-docker.cloud.thermofisher.net/login
+ashwani.pandey
+
+b2b testing tool:
+https://commerce.b2b.thermofisher.com/b2btester/index.cfm
+
+supply chain management
+https://commerce.qa.thermofisher.com/admin/index.cfm
+
+Thermofisher User page
+https://www.qa.thermofisher.com/sg/en/home.html
+
+
+timesheet:
+https://ppm-thermofisher.saas.microfocus.com/itg/dashboard/app/portal/PageView.jsp
+
+https://www.qa.thermofisher.com/account-center/cloud-signin.html
+
+https://ashwani.pandey@stash.thermofisher.com/scm/tfbb/tfcom-b2b-checkout-v2.git
+2020.30
+
+
+discussion on code setup in local system like import,build and run
+discussion on KT session
+
+shared folder:
+https://thermofisher-my.sharepoint.com/personal/ankur_kumar_thermofisher_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fankur%5Fkumar%5Fthermofisher%5Fcom%2FDocuments%2FShared%20folder
+
+
+
+spring.profiles: dev_shared
+spring.datasource.url: jdbc:postgresql://tfcom-dev-db.cqyzlbgrtna9.us-east-1.rds.amazonaws.com:5432/b2bOrdersDB
+spring.datasource.username: tfb2bapp
+spring.datasource.password: TfB@OrQ1a
+
+
+spring.datasource.url: jdbc:postgresql://tfcom-dev-db.cqyzlbgrtna9.us-east-1.rds.amazonaws.com:5432/b2bOrdersDB
+spring.datasource.username: tfb2bapp
+spring.datasource.password: TfB@OrQ1a
+
+
+spring.datasource.url: jdbc:postgresql://tfcom-dev-db.cqyzlbgrtna9.us-east-1.rds.amazonaws.com:5432/b2bOrdersDB
+spring.datasource.username: tfb2bapp
+spring.datasource.password: TfB@OrQ1a
+
+
+
+BUY_ECOMDcloud1
