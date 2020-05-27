@@ -240,4 +240,7 @@
       </web:Payload>
     </web:OrderServiceRequest>
    </soapenv:Body>
+         </web:Payload>
+       </web:OrderServiceRequest>
+      </soapenv:Body>
 </soapenv:Envelope>
